@@ -7,6 +7,8 @@
     <script type="text/javascript" src="../jquery-3.0.0.js"></script>
     <script type="text/javascript">
         $("document").ready(function () {
+            
+//            alert($("#example").html());
             document.getElementById("create").addEventListener("click", function (evt) {
                 createContent();
             });
@@ -19,12 +21,20 @@
         });
 
         function createContent() {
+            $("#example").html("<p>Hi i am prithvi</p>");
         }
 
         function changeContent() {
+            var newcontent = "I am a new paragraph"
+            $("#para1").html(newcontent);
         }
+        
 
         function changeAllTheContent() {
+//            text will print as it is  and html will convert html to text
+            
+//            $("#example p").html("<p>I have changed all paragraphs");
+            $("#example p").text("<p>I have changed all paragraphs");
         }
     </script>
 </head>
