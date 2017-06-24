@@ -7,6 +7,18 @@
     <script type="text/javascript" src="../jquery-3.0.0.js"></script>
     <script type="text/javascript">
         $("document").ready(function() {
+            
+//            $("#example p").append("-> you r appended");
+//            $("#example p").prepend("hey hi");
+            
+//            $("#example p:last").appendTo("#example p:first")
+//            $("#example p:last").prependTo("#example p:first")
+            
+//            $("#example p").after("***");
+//            $("#example p").before("***");
+            
+            $("<p>  -->i m inserted after</p>").insertAfter("#example p:first");
+            $("<p>i m at first<--  </p>").insertBefore("#example p:last");
         });
     </script>
 </head>
