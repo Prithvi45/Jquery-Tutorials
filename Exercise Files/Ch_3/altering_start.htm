@@ -7,7 +7,28 @@
     <script type="text/javascript" src="../jquery-3.0.0.js"></script>
     <script type="text/javascript">
     $("document").ready(function() {
+//        $("#example p").wrap("<div style='color:red'/>");
+//        $("#example p").wrapAll("<div style='color:red'/>");  
+//        $("#example").empty();
+//        $("#example p.a, #example p.b").remove();
+//          $("#example p.a, #example p.b").detach();
+//        $("<div> replaced</div>").replaceAll("#example p.a, #example p.b");
+//        $("#example p.a").replaceWith("<div>Replaced</div>");
+//        $("#example p[id]").replaceWith("<div>i am replaced element</div>");
+        $("#example p").replaceWith(replacefunc);
+        
     });
+        
+        function replacefunc()
+        {
+        if ($(this).text().indexOf("1") != -1) {
+            return "<p>This is replaced paragraph </p>";
+        }
+            else{
+                return this.outerHTML;
+            }
+            
+        }
     </script>
 </head>
 
