@@ -13,6 +13,9 @@
             
              $("#products h2.product-name[data-type='mineralwater']").css("background-color", "#2982D0");
             
+//        $("#products h2.product-name[data-type='vitamin']").attr("visibility","hidden") ;
+            $("#products h2").attr("visibility","hidden") ;
+            
         });
     </script>
     
@@ -60,11 +63,10 @@
   </div><!-- container -->
     
     
-    
   <ul class="product-list">
     <li class="product-item" data-prod_id="V-A1037">
         <img class="product-image" src="images/products/vitamin-a.jpg" alt="Vitamin A - Product Photo">
-        <h2 class="product-name" data-type="vitamin">Vitamin A</h2>
+        <h2 hidden class="product-name" data-type="vitamin">Vitamin A</h2>
     </li>
     <li class="product-item" data-prod_id="V-BC2178">
         <img class="product-image" src="images/products/vitamin-bcomplex.jpg" alt="B Complex - Product Photo">
