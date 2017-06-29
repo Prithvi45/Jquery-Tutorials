@@ -5,8 +5,21 @@
     <title>Creating New Content</title>
     <link rel="stylesheet" type="text/css" href="../style.css" />
     <script type="text/javascript" src="../jquery-3.0.0.js"></script>
+
+    <style type="text/css">
+    textarea, iframe{
+        display: block;
+        margin: 10px 0;
+    }
+</style>
+
+
     <script type="text/javascript">
         $("document").ready(function () {
+
+             var myFrame = $("#myframe").contents().find('body');
+             var textareaValue = ""
+             myFrame.html(textareaValue);
             
 //            alert($("#example").html());
             document.getElementById("create").addEventListener("click", function (evt) {
@@ -29,18 +42,16 @@
             $("#para1").html(newcontent);
         }
         
-        
 
         function changeAllTheContent() {
-//            text will print as it is  and html will convert html to text 
+//            text will print as it is  and html will convert html to text
             
 //            $("#example p").html("<p>I have changed all paragraphs");
-            $("#example p").text("<p>I have changed all paragraphs");
-            
-            var newcontent = "I am a new paragraph"
-            $("#myframe").html("<p>i am an html content</p><br/><h3>Trust Me</h3>");
-            
-            
+             var myFrame = $("#myframe").contents().find('body');
+             var textareaValue = "I have changed all paragraphs"
+             myFrame.html(textareaValue);
+             // $("#example p").text("<p>I have changed all paragraphs");
+             // $("#myframe").html("<p>I have changed all paragraphs");
         }
     </script>
 </head>
@@ -65,9 +76,19 @@
             <button id="create">Create Content</button>
             <button id="change">Change Content</button>
             <button id="changeAll">Change All</button>
-        </div> 
-        
-        <iframe id="myframe"></iframe>
+        </div>
+
+
+
+<iframe id="myframe" width="100%" height="1000">
+
+</iframe>
+
+<div id="data" >
+ <h2> this is my data</h2>
+    </div>
+       
+ 
     </div>
 </body>
 
