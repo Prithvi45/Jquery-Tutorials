@@ -8,11 +8,20 @@
     <script type="text/javascript">
         $(function() {
             $("#show").click(function() {
+                $("#theDiv").show("fast");
             });
             $("#hide").click(function() {
+                $("#theDiv").hide(1000,"linear");
+//                swing and linear gives effect
             });
             $("#toggle").click(function() {
+                $("#theDiv").toggle("slow",completion);
             });
+            
+            function completion()
+            {
+                $(this).text("Animation Completion")
+            }
         });
     </script>
     <style type="text/css">
