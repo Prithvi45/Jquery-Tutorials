@@ -1,10 +1,7 @@
-# AWS 
-
-
 
 A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources
 
-## Guides, Books, Documentation, and Training
+## Guides, Books, Documentation,Training, Video Tutorials, and Open Source Repos 
 
 *How-to's, training, whitepapers, docs, and case studies.*
 
