@@ -4,18 +4,166 @@
 
 A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources
 
-## Index
+## Guides, Books, Documentation, and Training
 
-
-## Open Source Repos
-
-*AWS and community open source projects, grouped by service.  See [A Note on Repo AWSomeness](https://github.com/donnemartin/awesome-aws/blob/master/CONTRIBUTING.md#a-note-on-repo-awsomeness) for more details.*
+*How-to's, training, whitepapers, docs, and case studies.*
 
 <br/>
 <p align="center">
-  <img src="http://i.imgur.com/wbhTgga.png">
+  <img src="http://i.imgur.com/LxYDN5K.png">
 </p>
 <br/>
+
+### Getting Started Guides
+
+AWS Guides:
+
+* [Getting Started with AWS](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-intro.html)
+* [Getting Started Tutorials](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html)
+    * [Run a Virtual Server](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2614)
+    * [Store Files](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2683)
+    * [Share Digital Media](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2755)
+    * [Deploy a Website](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2767)
+    * [Host a Website (Linux)](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2836)
+    * [Host a Website (Windows)](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2908)
+    * [Run a Database](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2980)
+    * [Analyze Your Data](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e3065)
+
+Community Guides:
+
+* [Contribute](https://github.com/donnemartin/awesome-aws/blob/master/CONTRIBUTING.md)
+
+### General Guides
+
+AWS Guides:
+
+* [Analyzing Big Data](http://docs.aws.amazon.com/gettingstarted/latest/emr/getting-started-emr-overview.html)
+    * [Sentiment Analysis](http://docs.aws.amazon.com/gettingstarted/latest/emr/getting-started-emr-sentiment-tutorial.html)
+    * [Web Server Log Analysis](http://docs.aws.amazon.com/gettingstarted/latest/emr/getting-started-emr-tutorial.html)
+* [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
+* [Deploying a Web App Using Elastic Beanstalk](http://docs.aws.amazon.com/gettingstarted/latest/deploy/overview.html)
+* [Hosting a Web App](http://docs.aws.amazon.com/gettingstarted/latest/wah-linux/web-app-hosting-intro.html)
+* [Hosting a .NET Web App](http://docs.aws.amazon.com/gettingstarted/latest/wah/web-app-hosting-intro.html)
+* [Hosting a Static Website](http://docs.aws.amazon.com/gettingstarted/latest/swh/website-hosting-intro.html)
+* [Quick Start Deployment Guides](https://aws.amazon.com/documentation/quickstart/)
+
+Community Guides:
+
+* [Open Guide to AWS :fire::fire::fire::fire::fire:](https://github.com/open-guides/og-aws)
+
+### Books
+
+* Amazon Web Services in Action [Manning](https://www.manning.com/books/amazon-web-services-in-action) or [Amazon.com](http://amzn.com/1617292885)
+* AWS Lambda in Action [Manning](https://www.manning.com/books/aws-lambda-in-action) or [Amazon.com](http://amzn.com/1617293717) - [Code Repo :fire:](https://github.com/danilop/AWS_Lambda_in_Action)
+
+### Whitepapers
+
+* [AWS Well-Architected Framework](https://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
+* [Whitepapers](https://aws.amazon.com/whitepapers/)
+
+### Documentation
+
+* [Documentation](https://aws.amazon.com/documentation/)
+* [AWS Billing and Cost Management](https://aws.amazon.com/documentation/account-billing/)
+* [AWS Marketplace](https://aws.amazon.com/documentation/marketplace/)
+* [AWS Support](https://aws.amazon.com/documentation/aws-support/)
+* [AWS General Reference](http://docs.aws.amazon.com/general/latest/gr/)
+* [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
+
+### Training
+
+* [Training and Certification](https://aws.amazon.com/training/)
+* [Webinars](https://aws.amazon.com/about-aws/events/)
+
+### Case Studies: Powered by AWS
+
+* [Adobe](https://aws.amazon.com/solutions/case-studies/adobe/?pg=main-customer-success-page)
+* [AdRoll](https://aws.amazon.com/solutions/case-studies/adroll/)
+* [Airbnb](https://aws.amazon.com/solutions/case-studies/airbnb/?pg=main-customer-success-page)
+* [Autodesk](https://aws.amazon.com/solutions/case-studies/autodesk/)
+* [AWS](http://aws.amazon.com/)
+* [Citrix](https://aws.amazon.com/solutions/case-studies/citrix/)
+* [Comcast](https://aws.amazon.com/solutions/case-studies/comcast/?pg=main-customer-success-page)
+* [Coursera](https://aws.amazon.com/solutions/case-studies/coursera/)
+* [Docker](https://aws.amazon.com/solutions/case-studies/docker/)
+* [Dow Jones](https://aws.amazon.com/solutions/case-studies/dow-jones/?pg=main-customer-success-page)
+* [Dropbox](https://www.dropbox.com/)
+* [Dropcam](https://aws.amazon.com/solutions/case-studies/dropcam/)
+* [Expedia](https://aws.amazon.com/solutions/case-studies/expedia/?pg=main-customer-success-page)
+* [Foursquare](https://aws.amazon.com/solutions/case-studies/foursquare/?pg=main-customer-success-page)
+* [IMDb](https://aws.amazon.com/solutions/case-studies/imdb/)
+* [Instrumental](https://instrumentalapp.com/blog/aws-kinesis/) - Deep-dive into Kinesis as a queue system
+* [Intuit](https://aws.amazon.com/solutions/case-studies/soasta-intuit/)
+* [Johnson & Johnson](https://aws.amazon.com/solutions/case-studies/johnson-and-johnson/)
+* [Lionsgate](https://aws.amazon.com/solutions/case-studies/lionsgate/?pg=main-customer-success-page)
+* [mlbam](https://aws.amazon.com/solutions/case-studies/major-league-baseball-mlbam/?pg=main-customer-success-page)
+* [NASA](https://aws.amazon.com/solutions/case-studies/nasa-jpl-curiosity/?pg=main-customer-success-page)
+* [Netflix](https://aws.amazon.com/solutions/case-studies/netflix/?pg=main-customer-success-page)
+* [Nike](https://aws.amazon.com/solutions/case-studies/nike/)
+* [Nokia](https://aws.amazon.com/solutions/case-studies/nokia/?pg=main-customer-success-page)
+* [PBS](https://aws.amazon.com/solutions/case-studies/pbs/)
+* [Pfizer](https://aws.amazon.com/solutions/case-studies/pfizer/?pg=main-customer-success-pagel)
+* [Philips](https://aws.amazon.com/solutions/case-studies/philips/)
+* [Reddit](https://www.reddit.com/)
+* [Samsung](https://aws.amazon.com/solutions/case-studies/samsung/?pg=main-customer-success-page)
+* [Siemens](https://aws.amazon.com/solutions/case-studies/siemens/)
+* [Slack](https://aws.amazon.com/solutions/case-studies/slack/?pg=main-customer-success-page)
+* [Spotify](https://www.spotify.com)
+* [Swiftkey](https://aws.amazon.com/solutions/case-studies/swiftkey/)
+* [The Weather Company](https://aws.amazon.com/solutions/case-studies/the-weather-company/)
+* [Ticketmaster](https://aws.amazon.com/solutions/case-studies/ticketmaster/)
+* [Time Inc](https://aws.amazon.com/solutions/case-studies/time-inc/?pg=main-customer-success-page)
+* [Twilio](https://www.twilio.com/)
+* [U.S. Department of State](https://aws.amazon.com/solutions/case-studies/exchangesconnect/)
+* [Ubisoft](https://aws.amazon.com/solutions/case-studies/ubisoft/)
+* [Yelp](https://aws.amazon.com/solutions/case-studies/yelp-docker/?pg=main-customer-success-page)
+* [Zillow](https://aws.amazon.com/solutions/case-studies/zillow/)
+
+
+
+
+
+### Blogs
+
+AWS Blogs:
+
+* [Official Blog](https://aws.amazon.com/blogs/aws/)
+    * [Brasil](http://aws.typepad.com/brasil/)
+    * [China](http://blog.csdn.net/awschina)
+    * [Germany](http://aws.typepad.com/awsaktuell/)
+    * [Japan](http://aws.typepad.com/aws_japan/)
+    * [Korea](http://aws.amazon.com/ko/blogs/korea/)
+* [Application Management](http://blogs.aws.amazon.com/application-management)
+* [Architecture](http://www.awsarchitectureblog.com/)
+* [Big Data](https://blogs.aws.amazon.com/bigdata/)
+* [Compute](https://aws.amazon.com/blogs/compute/)
+* [Mobile](https://mobile.awsblog.com/)
+* [SES](http://sesblog.amazon.com/)
+* [Java](http://java.awsblog.com/)
+* [PHP](http://blogs.aws.amazon.com/php/)
+* [Ruby](http://ruby.awsblog.com/)
+* [Security](http://blogs.aws.amazon.com/security/)
+* [Startup](https://medium.com/aws-activate-startup-blog)
+* [.NET](http://blogs.aws.amazon.com/net/)
+* [Partner Network](https://aws.amazon.com/blogs/apn/)
+* [SAP](https://aws.amazon.com/blogs/awsforsap/)
+* [Startup collection](https://medium.com/aws-activate-startup-blog)
+
+Community Blogs:
+
+* [All Things Distributed](http://www.allthingsdistributed.com/) - Werner Vogels, AWS CTO.
+* [Things I Like...](http://jeff-barr.com/) - Jeff Barr, AWS Chief Evangelist.
+* [Netflix Tech Blog](http://techblog.netflix.com/)
+* [A Curated List of Engineering Blogs](https://github.com/kilimchoi/engineering-blogs)
+* [AWS Geek](https://www.awsgeek.com/)
+* [Contribute](https://github.com/donnemartin/awesome-aws/blob/master/CONTRIBUTING.md)
+
+
+
+
+
+
+## Open Source Repos
 
 ### API Gateway
 
@@ -645,159 +793,5 @@ Community Repos:
 
 
 
-
-## Guides, Books, Documentation, and Training
-
-*How-to's, training, whitepapers, docs, and case studies.*
-
-<br/>
-<p align="center">
-  <img src="http://i.imgur.com/LxYDN5K.png">
-</p>
-<br/>
-
-### Getting Started Guides
-
-AWS Guides:
-
-* [Getting Started with AWS](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-intro.html)
-* [Getting Started Tutorials](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html)
-    * [Run a Virtual Server](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2614)
-    * [Store Files](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2683)
-    * [Share Digital Media](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2755)
-    * [Deploy a Website](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2767)
-    * [Host a Website (Linux)](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2836)
-    * [Host a Website (Windows)](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2908)
-    * [Run a Database](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e2980)
-    * [Analyze Your Data](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#d0e3065)
-
-Community Guides:
-
-* [Contribute](https://github.com/donnemartin/awesome-aws/blob/master/CONTRIBUTING.md)
-
-### General Guides
-
-AWS Guides:
-
-* [Analyzing Big Data](http://docs.aws.amazon.com/gettingstarted/latest/emr/getting-started-emr-overview.html)
-    * [Sentiment Analysis](http://docs.aws.amazon.com/gettingstarted/latest/emr/getting-started-emr-sentiment-tutorial.html)
-    * [Web Server Log Analysis](http://docs.aws.amazon.com/gettingstarted/latest/emr/getting-started-emr-tutorial.html)
-* [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
-* [Deploying a Web App Using Elastic Beanstalk](http://docs.aws.amazon.com/gettingstarted/latest/deploy/overview.html)
-* [Hosting a Web App](http://docs.aws.amazon.com/gettingstarted/latest/wah-linux/web-app-hosting-intro.html)
-* [Hosting a .NET Web App](http://docs.aws.amazon.com/gettingstarted/latest/wah/web-app-hosting-intro.html)
-* [Hosting a Static Website](http://docs.aws.amazon.com/gettingstarted/latest/swh/website-hosting-intro.html)
-* [Quick Start Deployment Guides](https://aws.amazon.com/documentation/quickstart/)
-
-Community Guides:
-
-* [Open Guide to AWS :fire::fire::fire::fire::fire:](https://github.com/open-guides/og-aws)
-
-### Books
-
-* Amazon Web Services in Action [Manning](https://www.manning.com/books/amazon-web-services-in-action) or [Amazon.com](http://amzn.com/1617292885)
-* AWS Lambda in Action [Manning](https://www.manning.com/books/aws-lambda-in-action) or [Amazon.com](http://amzn.com/1617293717) - [Code Repo :fire:](https://github.com/danilop/AWS_Lambda_in_Action)
-
-### Whitepapers
-
-* [AWS Well-Architected Framework](https://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
-* [Whitepapers](https://aws.amazon.com/whitepapers/)
-
-### Documentation
-
-* [Documentation](https://aws.amazon.com/documentation/)
-* [AWS Billing and Cost Management](https://aws.amazon.com/documentation/account-billing/)
-* [AWS Marketplace](https://aws.amazon.com/documentation/marketplace/)
-* [AWS Support](https://aws.amazon.com/documentation/aws-support/)
-* [AWS General Reference](http://docs.aws.amazon.com/general/latest/gr/)
-* [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
-
-### Training
-
-* [Training and Certification](https://aws.amazon.com/training/)
-* [Webinars](https://aws.amazon.com/about-aws/events/)
-
-### Case Studies: Powered by AWS
-
-* [Adobe](https://aws.amazon.com/solutions/case-studies/adobe/?pg=main-customer-success-page)
-* [AdRoll](https://aws.amazon.com/solutions/case-studies/adroll/)
-* [Airbnb](https://aws.amazon.com/solutions/case-studies/airbnb/?pg=main-customer-success-page)
-* [Autodesk](https://aws.amazon.com/solutions/case-studies/autodesk/)
-* [AWS](http://aws.amazon.com/)
-* [Citrix](https://aws.amazon.com/solutions/case-studies/citrix/)
-* [Comcast](https://aws.amazon.com/solutions/case-studies/comcast/?pg=main-customer-success-page)
-* [Coursera](https://aws.amazon.com/solutions/case-studies/coursera/)
-* [Docker](https://aws.amazon.com/solutions/case-studies/docker/)
-* [Dow Jones](https://aws.amazon.com/solutions/case-studies/dow-jones/?pg=main-customer-success-page)
-* [Dropbox](https://www.dropbox.com/)
-* [Dropcam](https://aws.amazon.com/solutions/case-studies/dropcam/)
-* [Expedia](https://aws.amazon.com/solutions/case-studies/expedia/?pg=main-customer-success-page)
-* [Foursquare](https://aws.amazon.com/solutions/case-studies/foursquare/?pg=main-customer-success-page)
-* [IMDb](https://aws.amazon.com/solutions/case-studies/imdb/)
-* [Instrumental](https://instrumentalapp.com/blog/aws-kinesis/) - Deep-dive into Kinesis as a queue system
-* [Intuit](https://aws.amazon.com/solutions/case-studies/soasta-intuit/)
-* [Johnson & Johnson](https://aws.amazon.com/solutions/case-studies/johnson-and-johnson/)
-* [Lionsgate](https://aws.amazon.com/solutions/case-studies/lionsgate/?pg=main-customer-success-page)
-* [mlbam](https://aws.amazon.com/solutions/case-studies/major-league-baseball-mlbam/?pg=main-customer-success-page)
-* [NASA](https://aws.amazon.com/solutions/case-studies/nasa-jpl-curiosity/?pg=main-customer-success-page)
-* [Netflix](https://aws.amazon.com/solutions/case-studies/netflix/?pg=main-customer-success-page)
-* [Nike](https://aws.amazon.com/solutions/case-studies/nike/)
-* [Nokia](https://aws.amazon.com/solutions/case-studies/nokia/?pg=main-customer-success-page)
-* [PBS](https://aws.amazon.com/solutions/case-studies/pbs/)
-* [Pfizer](https://aws.amazon.com/solutions/case-studies/pfizer/?pg=main-customer-success-pagel)
-* [Philips](https://aws.amazon.com/solutions/case-studies/philips/)
-* [Reddit](https://www.reddit.com/)
-* [Samsung](https://aws.amazon.com/solutions/case-studies/samsung/?pg=main-customer-success-page)
-* [Siemens](https://aws.amazon.com/solutions/case-studies/siemens/)
-* [Slack](https://aws.amazon.com/solutions/case-studies/slack/?pg=main-customer-success-page)
-* [Spotify](https://www.spotify.com)
-* [Swiftkey](https://aws.amazon.com/solutions/case-studies/swiftkey/)
-* [The Weather Company](https://aws.amazon.com/solutions/case-studies/the-weather-company/)
-* [Ticketmaster](https://aws.amazon.com/solutions/case-studies/ticketmaster/)
-* [Time Inc](https://aws.amazon.com/solutions/case-studies/time-inc/?pg=main-customer-success-page)
-* [Twilio](https://www.twilio.com/)
-* [U.S. Department of State](https://aws.amazon.com/solutions/case-studies/exchangesconnect/)
-* [Ubisoft](https://aws.amazon.com/solutions/case-studies/ubisoft/)
-* [Yelp](https://aws.amazon.com/solutions/case-studies/yelp-docker/?pg=main-customer-success-page)
-* [Zillow](https://aws.amazon.com/solutions/case-studies/zillow/)
-
-
-
-
-
-### Blogs
-
-AWS Blogs:
-
-* [Official Blog](https://aws.amazon.com/blogs/aws/)
-    * [Brasil](http://aws.typepad.com/brasil/)
-    * [China](http://blog.csdn.net/awschina)
-    * [Germany](http://aws.typepad.com/awsaktuell/)
-    * [Japan](http://aws.typepad.com/aws_japan/)
-    * [Korea](http://aws.amazon.com/ko/blogs/korea/)
-* [Application Management](http://blogs.aws.amazon.com/application-management)
-* [Architecture](http://www.awsarchitectureblog.com/)
-* [Big Data](https://blogs.aws.amazon.com/bigdata/)
-* [Compute](https://aws.amazon.com/blogs/compute/)
-* [Mobile](https://mobile.awsblog.com/)
-* [SES](http://sesblog.amazon.com/)
-* [Java](http://java.awsblog.com/)
-* [PHP](http://blogs.aws.amazon.com/php/)
-* [Ruby](http://ruby.awsblog.com/)
-* [Security](http://blogs.aws.amazon.com/security/)
-* [Startup](https://medium.com/aws-activate-startup-blog)
-* [.NET](http://blogs.aws.amazon.com/net/)
-* [Partner Network](https://aws.amazon.com/blogs/apn/)
-* [SAP](https://aws.amazon.com/blogs/awsforsap/)
-* [Startup collection](https://medium.com/aws-activate-startup-blog)
-
-Community Blogs:
-
-* [All Things Distributed](http://www.allthingsdistributed.com/) - Werner Vogels, AWS CTO.
-* [Things I Like...](http://jeff-barr.com/) - Jeff Barr, AWS Chief Evangelist.
-* [Netflix Tech Blog](http://techblog.netflix.com/)
-* [A Curated List of Engineering Blogs](https://github.com/kilimchoi/engineering-blogs)
-* [AWS Geek](https://www.awsgeek.com/)
-* [Contribute](https://github.com/donnemartin/awesome-aws/blob/master/CONTRIBUTING.md)
 
 
