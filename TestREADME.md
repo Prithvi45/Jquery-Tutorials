@@ -48,6 +48,9 @@ Community Guides:
 
 * [Open Guide to AWS :fire::fire::fire::fire::fire:](https://github.com/open-guides/og-aws)
 
+### Video Tutorials
+* [AWS Services for Solutions Architect Associates](http://bit.ly/2UofgI0)
+
 ### Books
 
 * Amazon Web Services in Action [Manning](https://www.manning.com/books/amazon-web-services-in-action) or [Amazon.com](http://amzn.com/1617292885)
@@ -72,8 +75,6 @@ Community Guides:
 * [Training and Certification](https://aws.amazon.com/training/)
 * [Webinars](https://aws.amazon.com/about-aws/events/)
 
-### Video Tutorials
-* [AWS Services for Solutions Architect Associates](https://www.edyoda.com/course/1410)
 
 ### Case Studies: Powered by AWS
 
