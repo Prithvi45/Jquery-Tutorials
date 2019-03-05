@@ -72,6 +72,9 @@ Community Guides:
 * [Training and Certification](https://aws.amazon.com/training/)
 * [Webinars](https://aws.amazon.com/about-aws/events/)
 
+### Video Tutorials
+* [AWS Services for Solutions Architect Associates](https://www.edyoda.com/course/1410)
+
 ### Case Studies: Powered by AWS
 
 * [Adobe](https://aws.amazon.com/solutions/case-studies/adobe/?pg=main-customer-success-page)
